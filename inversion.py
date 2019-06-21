@@ -10,7 +10,7 @@ def Merge_CountSplitinv(left,right):
             else:
                 result.append(right[j])
                 b = left[i:]
-                count += len(b)
+                count += len(b
                 j+=1
         result += left[i:]
         result += right[j:]
